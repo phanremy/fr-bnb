@@ -12,9 +12,6 @@
             <div class="card-trip p-3" data-aos="fade-up">
                 <%= cl_image_tag mother.photos.sample.key, height: 300, width: 400, crop: :fill %>
                 <h2><%= mother.name%></h2>
-                <p><%= mother.age %> yo</p>
-                <p><%= mother.description.first(20) %>...</p>
-
             </div>
           <% end %>
       <% end %>
